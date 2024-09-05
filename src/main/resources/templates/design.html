@@ -62,7 +62,6 @@
     <div>
         <h3>Name your pizza:</h3>
         <input type="text" th:field="*{name}"/>
-        <br/>
         <span class="validationError"
               th:if="${#fields.hasErrors('name')}"
               th:errors="*{name}">Delivery name Error</span>

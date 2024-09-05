@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: PizzaCloud
+  datasource:
+    generate-unique-name: false
+    name: pizzacloud
