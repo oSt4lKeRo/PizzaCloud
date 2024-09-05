@@ -1,3 +1,8 @@
+-- DROP TABLE IF EXISTS Ingredient_Ref;
+-- DROP TABLE IF EXISTS Ingredient;
+-- DROP TABLE IF EXISTS Pizza_Order;
+-- DROP TABLE IF EXISTS Pizza;
+
 create table if not exists Pizza_Order (
     id identity PRIMARY KEY,
     delivery_Name varchar(50) not null,
